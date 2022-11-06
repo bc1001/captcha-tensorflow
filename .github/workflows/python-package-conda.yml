@@ -24,5 +24,5 @@ jobs:
         pip install -r requirements.txt
     - name: gen_dataset
       run: |
-      python3 datasets/gen_captcha.py -d --npi=4 -n 6
-      python3 datasets/base.py ./images/char-4-epoch-6/
+        python3 datasets/gen_captcha.py -d --npi=4 -n 6
+        python3 datasets/base.py ./images/char-4-epoch-6/
